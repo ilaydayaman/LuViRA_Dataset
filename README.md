@@ -18,12 +18,21 @@ If you find our work to be useful in your research, please consider citing our p
       primaryClass={eess.SP}
 }
 ```
+# Description
 
-# Data Structure
+All the data is cut from 1s before the movement starts to 1s after the movement ends: [movement_start-1s : movement_end+1s]
+
+### Snapshot Rate of different systems ###
+Ground truth system -> 100Hz  
+Camera -> color-30fps, infra/depth-15fps, gyro-400Hz, accel-100Hz  
+Wireless -> 100Hz  
+Sound -> 96 kHz
 
 For detailed measurement log, please see: 
 
 https://docs.google.com/spreadsheets/d/1Wo1emus49q3nXsXXXrSd7V33IDcYeVu4-jj-yxmDW6Y/edit?usp=sharing
+
+# Data Structure
 
 ## Grid Data/Trajectories
 
@@ -69,8 +78,6 @@ List of additional data provided with the dataset
 2. Background noise in the environment 
 
 # Storage
-
-All the data is cut from 1s before the movement starts to 1s after the movement ends.
 
 The LuViRA dataset stored as:
 
