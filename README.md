@@ -20,7 +20,9 @@ If you find our work to be useful in your research, please consider citing our p
 ```
 # Description
 
-All the data is cut from 1s before the movement starts to 1s after the movement ends: [movement_start-1s : movement_end+1s]
+For detailed measurement log, please see: 
+
+https://docs.google.com/spreadsheets/d/1Wo1emus49q3nXsXXXrSd7V33IDcYeVu4-jj-yxmDW6Y/edit?usp=sharing
 
 ### Snapshot Rate of different systems ###
 Ground truth system -> 100Hz  
@@ -28,9 +30,13 @@ Camera -> color-30fps, infra/depth-15fps, gyro-400Hz, accel-100Hz
 Wireless -> 100Hz  
 Sound -> 96 kHz
 
-For detailed measurement log, please see: 
+### Post-processing Remarks ##
 
-https://docs.google.com/spreadsheets/d/1Wo1emus49q3nXsXXXrSd7V33IDcYeVu4-jj-yxmDW6Y/edit?usp=sharing
+All the data is cut from 1s before the movement starts to 1s after the movement ends: [movement_start-1s : movement_end+1s]
+
+The RGB images and depth maps are extracted from the rosbags and aligned as .png files as a part of the post-processing step.
+
+To assist with collecting the information from various sources in the camera and performing necessary format conversion, we have created a separate script that handles the conversion automatically: https://github.com/niil87/Nik_OrbSlam. 
 
 # Data Structure
 
