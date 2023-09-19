@@ -94,20 +94,35 @@ dataset_directory
                   └── Grid               
                   └── Random               
             └── RGB-D                
-                  └── Color               
-                  └── Depth
+                  └── Grid101
+                        └── data.csv
+                        └── color
+                              └── 1651916350145.png  
+                              └── 1651916350545.png
+                        └── depth    
+                              └── 1651916350145.png  
+                              └── 1651916350545.png        
+                  └── Grid102  
+                        └── data.csv
+                        └── color
+                              └── 1651916350145.png  
+                              └── 1651916350545.png
+                        └── depth    
+                              └── 1651916350145.png  
+                              └── 1651916350545.png
+                  └── ...
       └── Radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
             └── ...           
       └── Audio   # 12 Microphones + 13th recording is the start signal from the ground truth system  
             └── Grid101            
-                  └── 1            
-                  └── 2          
+                  └── 1.wav            
+                  └── 2.wav          
                   └── ...     
             └── Grid102         
-                  └── 1            
-                  └── 2          
+                  └── 1.wav            
+                  └── 2.wav          
                   └── ...  
             └── ... 
       └── Ground truth
