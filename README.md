@@ -21,6 +21,10 @@ If you find our work to be useful in your research, please consider citing our p
 
 # Data Structure
 
+For detailed measurement log, please see: 
+
+https://docs.google.com/spreadsheets/d/1Wo1emus49q3nXsXXXrSd7V33IDcYeVu4-jj-yxmDW6Y/edit?usp=sharing
+
 ## Grid Data/Trajectories
 
 75 trajectories where robot moves back and forth in a (mostly) straight line (while facing the same side of the studio). 
