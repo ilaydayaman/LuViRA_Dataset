@@ -88,7 +88,7 @@ The LuViRA dataset stored as:
 
 ```
 dataset_directory
-      └── Vision  # the name of the .png files are the true timestamps provided by the NTP server                    
+      └── vision  # the name of the .png files are the true timestamps provided by the NTP server                    
             └── Monocular                 
                   └── Grid          
                         └── Grid101
@@ -115,11 +115,11 @@ dataset_directory
                               └── ...      
                   └── Grid102  
                   └── ...
-      └── Radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
+      └── radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
             └── ...           
-      └── Audio   # 12 Microphones + 13th recording is the start signal from the ground truth system (Sync) 
+      └── audio   # 12 Microphones + 13th recording is the start signal from the ground truth system (Sync) 
             └── Grid101          
                   └── Sync.wav     
                   └── Track 1.wav     
@@ -127,7 +127,7 @@ dataset_directory
                   └── ...     
             └── Grid102        
             └── ... 
-      └── Ground truth
+      └── ground_truth
             └── extracted
                   └── Grid101.csv
                   └── Grid102.csv
