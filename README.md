@@ -42,9 +42,9 @@ To assist with collecting the information from various sources in the camera and
 
 ## Grid Data/Trajectories
 
-75 trajectories where robot moves back and forth in a (mostly) straight line (while facing the same side of the studio). 
+75 trajectories where robot moves back and forth in a (mostly) straight line (while facing the same side of the studio). The ''Grid120" trajectory was deleted from the radio system since the syncronization was lost between the LuMaMi and UE. The files for ground truth vision and audio systems kept for completeness.
 
-Named as: Grid101, Grid102, ..., Grid175
+Named as: Grid101, Grid102, ..., Grid176. 
 
 ## Random Data/Trajectories
 
