@@ -145,4 +145,4 @@ dataset_directory
 
 # Notes
 
-1. **For the vision system:** Only a selected number of rosbag files are given. Other rosbag files can be provided on request. The files occupy approximately 900GB. 
+1. **For the vision system:** Only a selected number of rosbag files are given. Other rosbag files can be provided on request. The files occupy approximately 900GB of space. 
