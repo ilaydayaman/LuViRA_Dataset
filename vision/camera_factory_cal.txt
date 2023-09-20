@@ -1,0 +1,40 @@
+
+Values: 
+
+Intrinsic of Color / 640x480 / {YUYV/RGB8/BGR8/RGBA8/BGRA8/Y16}
+  Width:      	640
+  Height:     	480
+  PPX:        	310.739654541016
+  PPY:        	242.007553100586
+  Fx:         	606.965881347656
+  Fy:         	605.677307128906
+  Distortion: 	Inverse Brown Conrady
+  Coeffs:     	0  	0  	0  	0  	0  
+  FOV (deg):  	55.59 x 43.23
+
+ Intrinsic of Depth / 640x480 / {Z16}
+  Width:      	640
+  Height:     	480
+  PPX:        	316.724456787109
+  PPY:        	237.638137817383
+  Fx:         	380.178619384766
+  Fy:         	380.178619384766
+  Distortion: 	Brown Conrady
+  Coeffs:     	0  	0  	0  	0  	0  
+  FOV (deg):  	80.17 x 64.53
+  
+ Extrinsic from Depth	  To	  Color:
+ Rotation Matrix:
+   0.999862         0.016589        -0.000550262   
+  -0.0165884        0.999862         0.0010606     
+   0.00056778      -0.00105133       0.999999      
+
+ Translation Vector: 0.0151170706376433  -5.82973698328715e-05  8.52605226100422e-05  
+
+Extrinsic from "Color"	  To	  "Depth" :
+ Rotation Matrix:
+   0.999862        -0.0165884        0.00056778    
+   0.016589         0.999862        -0.00105133    
+  -0.000550262      0.0010606        0.999999      
+
+ Translation Vector: -0.0151160033419728  -0.000192398685612716  -7.68802929087542e-05  
