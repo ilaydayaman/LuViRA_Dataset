@@ -117,7 +117,8 @@ dataset_directory
                                     └── 1651916361.330339432.png  
                                     └── ...      
                         └── Grid102       
-                        └── ...    
+                        └── ...        
+                  └── Random  
       └── radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
