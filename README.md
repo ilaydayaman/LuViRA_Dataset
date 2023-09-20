@@ -91,6 +91,7 @@ dataset_directory
       └── vision  # the name of the .png files are the true timestamps provided by the NTP server                    
             └── Monocular                 
                   └── Grid          
+                        └── RealSense_D435i_mono.yaml 
                         └── Grid101
                               └── mav0/cam0/data/
                                     └── data.csv 
@@ -101,20 +102,22 @@ dataset_directory
                         └── ...         
                   └── Random               
             └── RGB-D                
-                  └── Grid101
-                        └── associations.txt
-                        └── rgb
-                              └── data.csv 
-                              └── 1651916361.263793945.png  
-                              └── 1651916361.330339432.png
-                              └── ...
-                        └── depth    
-                              └── data.csv 
-                              └── 1651916361.263793945.png  
-                              └── 1651916361.330339432.png  
-                              └── ...      
-                  └── Grid102  
-                  └── ...
+                  └── Grid  
+                        └── RealSense_D435i_rgbd.yaml             
+                        └── Grid101
+                              └── associations.txt
+                              └── rgb
+                                    └── data.csv 
+                                    └── 1651916361.263793945.png  
+                                    └── 1651916361.330339432.png
+                                    └── ...
+                              └── depth    
+                                    └── data.csv 
+                                    └── 1651916361.263793945.png  
+                                    └── 1651916361.330339432.png  
+                                    └── ...      
+                        └── Grid102       
+                        └── ...    
       └── radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
