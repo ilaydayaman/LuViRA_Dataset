@@ -94,29 +94,26 @@ dataset_directory
                         └── Grid101
                               └── mav0/cam0/data/
                                     └── data.csv 
-                                    └── 1651916350145.png 
-                                    └── 1651916350545.png
+                                    └── 1651916361.263793945.png 
+                                    └── 1651916361.297067165.png
                                     └── ...
                         └── Grid102  
                         └── ...         
                   └── Random               
             └── RGB-D                
                   └── Grid101
-                        └── data.csv
-                        └── color
-                              └── 1651916350145.png  
-                              └── 1651916350545.png
+                        └── associations.txt
+                        └── rgb
+                              └── data.csv 
+                              └── 1651916361.263793945.png  
+                              └── 1651916361.330339432.png
+                              └── ...
                         └── depth    
-                              └── 1651916350145.png  
-                              └── 1651916350545.png        
+                              └── data.csv 
+                              └── 1651916361.263793945.png  
+                              └── 1651916361.330339432.png  
+                              └── ...      
                   └── Grid102  
-                        └── data.csv
-                        └── color
-                              └── 1651916350145.png  
-                              └── 1651916350545.png
-                        └── depth    
-                              └── 1651916350145.png  
-                              └── 1651916350545.png
                   └── ...
       └── Radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
@@ -128,11 +125,7 @@ dataset_directory
                   └── Track 1.wav     
                   └── Track 2.wav          
                   └── ...     
-            └── Grid102          
-                  └── Sync.wav     
-                  └── Track 1.wav     
-                  └── Track 2.wav          
-                  └── ...  
+            └── Grid102        
             └── ... 
       └── Ground truth
             └── extracted
