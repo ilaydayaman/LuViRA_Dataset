@@ -89,7 +89,7 @@ The LuViRA dataset stored as:
 ```
 dataset_directory
       └── Vision  # the name of the .png files are the true timestamps provided by the NTP server                    
-            └── Mono                 
+            └── Monocular                 
                   └── Grid          
                         └── Grid101
                               └── mav0/cam0/data/
