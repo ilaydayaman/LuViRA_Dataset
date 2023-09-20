@@ -71,7 +71,6 @@ List of the trajectories:
 
 List of additional data provided with the dataset
 1. Speaker only
-   - music0test
    - music0001
    - music0002
    - music0003
@@ -91,7 +90,15 @@ The LuViRA dataset stored as:
 dataset_directory
       └── Vision  # the name of the .png files are the true timestamps provided by the NTP server                    
             └── Mono                 
-                  └── Grid               
+                  └── Grid          
+                        └── Grid101
+                              └── mav0/cam0/data/
+                                    └── data.csv 
+                                    └── 1651916350145.png 
+                                    └── 1651916350545.png
+                                    └── ...
+                        └── Grid102  
+                        └── ...         
                   └── Random               
             └── RGB-D                
                   └── Grid101
@@ -115,20 +122,22 @@ dataset_directory
             └── Grid101.mat
             └── Grid102.mat
             └── ...           
-      └── Audio   # 12 Microphones + 13th recording is the start signal from the ground truth system  
-            └── Grid101            
-                  └── 1.wav            
-                  └── 2.wav          
+      └── Audio   # 12 Microphones + 13th recording is the start signal from the ground truth system (Sync) 
+            └── Grid101          
+                  └── Sync.wav     
+                  └── Track 1.wav     
+                  └── Track 2.wav          
                   └── ...     
-            └── Grid102         
-                  └── 1.wav            
-                  └── 2.wav          
+            └── Grid102          
+                  └── Sync.wav     
+                  └── Track 1.wav     
+                  └── Track 2.wav          
                   └── ...  
             └── ... 
       └── Ground truth
             └── extracted
-                  └── Grid0101.csv
-                  └── Grid0102.csv
+                  └── Grid101.csv
+                  └── Grid102.csv
                   └── ...
             └── raw      
                   └── 3D
