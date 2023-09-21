@@ -84,6 +84,10 @@ List of additional data provided with the dataset
 
 # Storage
 
+The LuViRA dataset stored to:
+```
+http://download.eit.lth.se/
+```
 The LuViRA dataset stored as:
 
 ```
