@@ -88,6 +88,10 @@ The LuViRA dataset stored to:
 ```
 http://download.eit.lth.se/
 ```
+
+Username: 
+Password: 
+
 The LuViRA dataset stored as:
 
 ```
