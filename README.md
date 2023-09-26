@@ -92,41 +92,54 @@ http://download.eit.lth.se/
 Username: download   
 Password: download
 
-The LuViRA dataset stored as:
+Overall, the LuViRA dataset is stored as:
+
+```
+Dasic_meas
+      └── Mono_grid.zip      # vision system
+      └── Mono_random.zip    # vision system
+      └── RGB-D_grid.zip     # vision system
+      └── RGB-D_random.zip   # vision system
+      └── Radio.zip          # radio system
+      └── audio.zip          # audio system
+      └── ground_truth.zip   # ground truth system
+      └── audio_only.zip     # additional data
+      └── noise.zip          # additional data
+```
+
+More detailed data stucture with examples from different folders: 
 
 ```
 dataset_directory
       └── vision  # the name of the .png files are the true timestamps provided by the NTP server                    
-            └── Monocular                 
-                  └── Grid          
-                        └── RealSense_D435i_mono.yaml 
-                        └── Grid101
-                              └── mav0/cam0/data/
-                                    └── data.csv 
-                                    └── 1651916361.263793945.png 
-                                    └── 1651916361.297067165.png
-                                    └── ...
-                        └── Grid102  
-                        └── ...         
-                  └── Random               
-            └── RGB-D                
-                  └── Grid  
-                        └── RealSense_D435i_rgbd.yaml             
-                        └── Grid101
-                              └── associations.txt
-                              └── rgb
-                                    └── data.csv 
-                                    └── 1651916361.263793945.png  
-                                    └── 1651916361.330339432.png
-                                    └── ...
-                              └── depth    
-                                    └── data.csv 
-                                    └── 1651916361.263793945.png  
-                                    └── 1651916361.330339432.png  
-                                    └── ...      
-                        └── Grid102       
-                        └── ...        
-                  └── Random  
+            └── Mono_grid             
+                  └── RealSense_D435i_mono.yaml 
+                  └── Grid101
+                        └── mav0/cam0/data/
+                              └── data.csv 
+                              └── 1651916361.263793945.png 
+                              └── 1651916361.297067165.png
+                              └── ...
+                  └── Grid102  
+                  └── ...         
+            └── Mono_random               
+            └── RGB-D_grid    
+                  └── RealSense_D435i_rgbd.yaml             
+                  └── Grid101
+                        └── associations.txt
+                        └── rgb
+                              └── data.csv 
+                              └── 1651916361.263793945.png  
+                              └── 1651916361.330339432.png
+                              └── ...
+                        └── depth    
+                              └── data.csv 
+                              └── 1651916361.263793945.png  
+                              └── 1651916361.330339432.png  
+                              └── ...      
+                  └── Grid102       
+                  └── ...              
+            └── RGB-D_random      
       └── radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
