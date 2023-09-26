@@ -101,8 +101,8 @@ Dasic_meas
       └── RGB-D_grid.zip     # vision system
       └── RGB-D_random.zip   # vision system
       └── Radio.zip          # radio system
-      └── audio.zip          # audio system
       └── ground_truth.zip   # ground truth system
+      └── audio.zip          # audio system
       └── audio_only.zip     # additional data
       └── noise.zip          # additional data
 ```
