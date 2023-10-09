@@ -94,7 +94,7 @@ Password: download
 Overall, the LuViRA dataset is stored as:
 
 ```
-Dasic_meas
+LuViRA_dataset
       └── Mono_grid.zip      # vision system
       └── Mono_random.zip    # vision system
       └── RGB-D_grid.zip     # vision system
