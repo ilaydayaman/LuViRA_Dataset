@@ -18,7 +18,7 @@ If you find our work to be useful in your research, please consider citing our p
       primaryClass={eess.SP}
 }
 ```
-For more information about the verification of the dataset, you can refer to our paper:
+For more information about the validation of the dataset, you can refer to our paper:
 ```
 @misc{yaman2023indoor,
       title={Indoor Localization Using Radio, Vision and Audio Sensors: Real-Life Data Validation and Discussion}, 
