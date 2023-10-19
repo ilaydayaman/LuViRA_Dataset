@@ -7,13 +7,24 @@ This repository contains the data for our paper:
 Ilayda Yaman, Guoda Tian, Martin Larsson, Patrik Persson, Michiel Sandra, Alexander Dürr, Erik Tegler, Nikhil Challa, Henrik Garde, Fredrik Tufvesson, Kalle Åström, Ove Edfors, Steffen Malkowsky, Liang Liu
 
 # Bibtex
-If you find our work to be useful in your research, please consider citing our paper:
+If you find our work to be useful in your research, please consider citing our paper about the dataset:
 ```
 @misc{yaman2023luvira,
       title={The LuViRA Dataset: Measurement Description}, 
       author={Ilayda Yaman and Guoda Tian and Martin Larsson and Patrik Persson and Michiel Sandra and Alexander Dürr and Erik Tegler and Nikhil Challa and Henrik Garde and Fredrik Tufvesson and Kalle Åström and Ove Edfors and Steffen Malkowsky and Liang Liu},
       year={2023},
       eprint={2302.05309},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP}
+}
+```
+For more information about the verification of the dataset, you can refer to our paper:
+```
+@misc{yaman2023indoor,
+      title={Indoor Localization Using Radio, Vision and Audio Sensors: Real-Life Data Validation and Discussion}, 
+      author={Ilayda Yaman and Guoda Tian and Erik Tegler and Patrik Persson and Nikhil Challa and Fredrik Tufvesson and Ove Edfors and Kalle Astrom and Steffen Malkowsky and Liang Liu},
+      year={2023},
+      eprint={2309.02961},
       archivePrefix={arXiv},
       primaryClass={eess.SP}
 }
