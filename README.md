@@ -29,6 +29,19 @@ For more information about the validation of the dataset, you can refer to our p
       primaryClass={eess.SP}
 }
 ```
+
+The radio based localization algorithm we developed using this dataset: 
+```
+@misc{tian2023highprecision,
+      title={High-Precision Machine-Learning Based Indoor Localization with Massive MIMO System}, 
+      author={Guoda Tian and Ilayda Yaman and Michiel Sandra and Xuesong Cai and Liang Liu and Fredrik Tufvesson},
+      year={2023},
+      eprint={2303.03743},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP}
+}
+```
+
 # Description
 
 For detailed measurement log, please see: 
