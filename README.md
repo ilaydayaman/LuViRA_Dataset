@@ -165,7 +165,7 @@ dataset_directory
                   └── Grid102       
                   └── ...              
             └── RGB-D_random           
-            └── Selected_rosbag  
+            └── Selected_rosbags  
       └── radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
