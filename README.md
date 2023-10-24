@@ -124,11 +124,11 @@ LuViRA_dataset
       └── RGB-D_grid.zip     # vision system
       └── RGB-D_random.zip   # vision system
       └── Radio.zip          # radio system
-      └── ground_truth.zip   # ground truth system
-      └── ground_truth_raw.zip   # ground truth system
-      └── audio.zip          # audio system
-      └── audio_only.zip     # additional data
-      └── noise.zip          # additional data
+      └── Ground_truth.zip   # ground truth system
+      └── Ground_truth_raw.zip   # ground truth system
+      └── Audio.zip          # audio system
+      └── Audio_only.zip     # additional data
+      └── Noise.zip          # additional data
       └── Selected_rosbag.zip   # a selected number of raw files for the vision system
 ```
 
@@ -164,7 +164,8 @@ dataset_directory
                               └── ...      
                   └── Grid102       
                   └── ...              
-            └── RGB-D_random      
+            └── RGB-D_random           
+            └── Selected_rosbag  
       └── radio   # formatted as (100,100,100) -> (time, frequency, antenna)         
             └── Grid101.mat
             └── Grid102.mat
