@@ -119,17 +119,17 @@ Overall, the LuViRA dataset is stored as:
 
 ```
 LuViRA_dataset
-      └── Mono_grid.zip      # vision system
-      └── Mono_random.zip    # vision system
-      └── RGB-D_grid.zip     # vision system
-      └── RGB-D_random.zip   # vision system
-      └── Radio.zip          # radio system
-      └── Ground_truth.zip   # ground truth system
-      └── Ground_truth_raw.zip   # ground truth system
-      └── Audio.zip          # audio system
-      └── Audio_only.zip     # additional data
-      └── Audio_noise.zip          # additional data
-      └── Selected_rosbags.zip   # a selected number of raw files for the vision system
+      └── Mono_grid.zip            # vision system - monocular (RGB or color) images, grid trajectories
+      └── Mono_random.zip          # vision system - monocular (RGB or color) images, grid trajectories
+      └── RGB-D_grid.zip           # vision system - Depth maps and RGB or color images, grid trajectories
+      └── RGB-D_random.zip         # vision system - Depth maps and RGB or color images, grid trajectories
+      └── Selected_rosbags.zip     # vision system - a selected number of raw files 
+      └── Radio.zip                # radio system 
+      └── Ground_truth.zip         # ground truth system, processed files
+      └── Ground_truth_raw.zip     # ground truth system, raw files
+      └── Audio.zip                # audio system
+      └── Audio_only.zip           # audio system - additional data that includes only the audio sensor
+      └── Audio_noise.zip          # audio system - additional data, background noise
 ```
 
 More detailed data stucture with examples from different folders: 
