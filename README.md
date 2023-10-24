@@ -129,6 +129,7 @@ LuViRA_dataset
       └── audio.zip          # audio system
       └── audio_only.zip     # additional data
       └── noise.zip          # additional data
+      └── Selected_rosbag.zip   # a selected number of raw files for the vision system
 ```
 
 More detailed data stucture with examples from different folders: 
