@@ -128,8 +128,8 @@ LuViRA_dataset
       └── Ground_truth_raw.zip   # ground truth system
       └── Audio.zip          # audio system
       └── Audio_only.zip     # additional data
-      └── Noise.zip          # additional data
-      └── Selected_rosbag.zip   # a selected number of raw files for the vision system
+      └── Audio_noise.zip          # additional data
+      └── Selected_rosbags.zip   # a selected number of raw files for the vision system
 ```
 
 More detailed data stucture with examples from different folders: 
