@@ -32,14 +32,15 @@ For more information about the validation of the dataset, you can refer to our p
 
 The radio based localization algorithm we developed using this dataset: 
 ```
-@misc{tian2023highprecision,
-      title={High-Precision Machine-Learning Based Indoor Localization with Massive MIMO System}, 
-      author={Guoda Tian and Ilayda Yaman and Michiel Sandra and Xuesong Cai and Liang Liu and Fredrik Tufvesson},
-      year={2023},
-      eprint={2303.03743},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+@INPROCEEDINGS{tian2023icc,
+  author={Tian, Guoda and Yaman, Ilayda and Sandra, Michiel and Cai, Xuesong and Liu, Liang and Tufvesson, Fredrik},
+  booktitle={ICC 2023 - IEEE International Conference on Communications}, 
+  title={High-Precision Machine-Learning Based Indoor Localization with Massive MIMO System}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={3690-3695},
+  doi={10.1109/ICC45041.2023.10278664}}
 ```
 
 # Description
