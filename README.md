@@ -198,3 +198,7 @@ dataset_directory
 # Notes
 
 1. **For the vision system:** Only a selected number of rosbag files are given. Other rosbag files can be provided on request. The files occupy approximately 900GB of space. 
+2. **Format of the ground truth system files:** ''Rot" stands for the 3x3 rotation matrix
+```
+# timestamps, X, Y, Z, Roll, Pitch, Yaw, Residual, Rot[0], Rot[1], Rot[2], Rot[3], Rot[4], Rot[5], Rot[6], Rot[7], Rot[8]
+```
