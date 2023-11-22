@@ -1,7 +1,7 @@
 # Description
 Lund University Vision, Radio, and Audio (LuViRA) Dataset consists of 88 trajectories that are recorded in the Lund University Humanities Lab's Motion Capture (Mocap) Studio using a MIR200 as the targeted platform for positioning. Each trajectory contains data from four different systems, vision, radio, audio and a ground truth system that can provide within 0.5mm localization accuracy. Motion Capture (Mocap) system in the environment is used as a ground truth system which provides 3D or 6DoF labels to a camera, a single antenna and a speaker. These targets are mounted on top of the MIR200 robot and put in motion. 
 
-There are 9 extra/additional recordings in the dataset that include only the audio sensor. One of these recordings is the background noise in the environment while everything else is static and the rest are the audio recordings where only the audio sensor (and the ground truth) are present in the environment. 
+There are 9 extra/additional recordings in the dataset that include only the audio system. One of these recordings is the background noise in the environment while everything else is static and the rest are the audio recordings where only the audio and the ground truth systems are present in the environment. 
 
 This repository contains the data for our paper:
 
