@@ -1,5 +1,5 @@
 
-Microphone locations based on the ground truth, mean of all the samples, Grid1 trajectory, 
+Microphone locations based on the ground truth (mm), mean of all the samples, Grid1 trajectory, 
 
 mic1 =  [2446.54251401408, 1739.80661950704, 1153.6641521126]
 mic2 =  [2878.14385070423, -648.52096387323, 047.42606478873] 
