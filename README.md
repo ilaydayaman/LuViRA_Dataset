@@ -130,8 +130,8 @@ LuViRA_dataset
       └── Radio.zip                # radio system 
       └── Ground_truth.zip         # ground truth system, processed files
       └── Ground_truth_raw.zip     # ground truth system, raw files
-      └── Audio.zip                # audio system
-      └── Audio_only.zip           # audio system - additional data that includes only the audio sensor
+      └── Audio_grid.zip           # audio system - Grid trajectories
+      └── Audio_random.zip         # audio system - Random trajectories
       └── Audio_noise.zip          # audio system - additional data, background noise
 ```
 
