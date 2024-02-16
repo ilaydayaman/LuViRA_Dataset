@@ -32,7 +32,7 @@ For more information about the validation of the dataset, you can refer to our p
 }
 ```
 
-The radio based localization algorithm we developed using this dataset: 
+The radio-based localization algorithm we developed using this dataset: 
 ```
 @INPROCEEDINGS{tian2023icc,
   author={Tian, Guoda and Yaman, Ilayda and Sandra, Michiel and Cai, Xuesong and Liu, Liang and Tufvesson, Fredrik},
@@ -69,13 +69,13 @@ To assist with collecting the information from various sources in the camera and
 
 ## Grid Data/Trajectories
 
-75 trajectories where robot moves back and forth in a (mostly) straight line (while facing the same side of the studio). The ''Grid120" trajectory was deleted from the radio system since the syncronization was lost between the LuMaMi and UE. The files for ground truth vision and audio systems kept for completeness.
+75 trajectories where the robot moves back and forth in a (mostly) straight line (while facing the same side of the studio). The ''Grid120" trajectory was deleted from the radio system since the synchronization was lost between the LuMaMi and UE. The files for ground truth vision and audio systems are kept for completeness.
 
 Named as: Grid101, Grid102, ..., Grid176. 
 
 ## Random Data/Trajectories
 
-13 trajectories recorded with different movement patterns. Some of the trajectories involve people moving around in the effective area. 
+14 trajectories were recorded with different movement patterns. Some of the trajectories involve people moving around in the effective area. 
 
 List of the trajectories: 
 
@@ -135,7 +135,7 @@ LuViRA_dataset
       └── Audio_noise.zip          # audio system - additional data, background noise
 ```
 
-More detailed data stucture with examples from different folders: 
+More detailed data structure with examples from different folders: 
 
 ```
 dataset_directory
