@@ -173,7 +173,7 @@ dataset_directory
             └── Grid101.mat
             └── Grid102.mat
             └── ...           
-      └── audio   # 12 Microphones + 13th recording is the start signal from the ground truth system (Sync) 
+      └── audio_grid   # 12 Microphones + 13th recording is the start signal from the ground truth system (Sync) 
             └── Grid101          
                   └── Sync.wav     
                   └── Track 1.wav     
@@ -181,6 +181,7 @@ dataset_directory
                   └── ...     
             └── Grid102        
             └── ... 
+      └── audio_random   # 12 Microphones + 13th recording is the start signal from the ground truth system (Sync) 
       └── ground_truth
             └── extracted
                   └── Grid101.csv
