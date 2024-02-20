@@ -6,3 +6,4 @@
 * It is recommended to assume that microphone locations may change between trajectories. Given locations were retrieved from the raw GT files, and calculated as the mid-point (average) of its two markers. For each trajectory the median X,Y and Z value for each microphone is thought to be a good approximate location.
 * The ground truth system may be accurate, but there are occasions where a readout of a microphone location does fluctuate, which is the reason for using median position. 
 
+* Random manual people2 is missing the recording of microphone 4 
