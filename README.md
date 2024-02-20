@@ -205,3 +205,4 @@ dataset_directory
 ```
 # timestamps, X, Y, Z, Roll, Pitch, Yaw, Residual, Rot[0], Rot[1], Rot[2], Rot[3], Rot[4], Rot[5], Rot[6], Rot[7], Rot[8]
 ```
+3. **For the audio system:** On Grid110 trajectory, microphone 7 shows a period of particular noise overlay. This noise has been seen on other trajectories as well, mostly on microphone 7 and 9.  
