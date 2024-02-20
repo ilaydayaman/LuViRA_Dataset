@@ -212,4 +212,5 @@ dataset_directory
 ```
 # timestamps, X, Y, Z, Roll, Pitch, Yaw, Residual, Rot[0], Rot[1], Rot[2], Rot[3], Rot[4], Rot[5], Rot[6], Rot[7], Rot[8]
 ```
-3. **For the audio system:** On Grid110 trajectory, microphone 7 shows a period of particular noise overlay. This noise has been seen on other trajectories as well, mostly on microphone 7 and 9.  
+3. **Separately tracked:** Although the camera, antenna and speaker follow the robot trajectory, do note that they are distinct objects with separate ground truth trajectories, and their orientation also does not neccesarily match the orientation of the robot (direction of travel). Being fixed on the robot, a rigid 6DoF tranformation should be able to align them however.
+
