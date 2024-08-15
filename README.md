@@ -35,17 +35,28 @@ For more information about the validation of the dataset, you can refer to our p
   doi={10.1109/JISPIN.2024.3429110}}
 ```
 
-The radio-based localization algorithm we developed using this dataset: 
+The radio-based localization algorithms we developed using this dataset: 
 ```
 @INPROCEEDINGS{tian2023icc,
   author={Tian, Guoda and Yaman, Ilayda and Sandra, Michiel and Cai, Xuesong and Liu, Liang and Tufvesson, Fredrik},
   booktitle={ICC 2023 - IEEE International Conference on Communications}, 
   title={High-Precision Machine-Learning Based Indoor Localization with Massive MIMO System}, 
   year={2023},
-  volume={},
-  number={},
   pages={3690-3695},
   doi={10.1109/ICC45041.2023.10278664}}
+```
+
+```
+@ARTICLE{10330061,
+  author={Tian, Guoda and Yaman, Ilayda and Sandra, Michiel and Cai, Xuesong and Liu, Liang and Tufvesson, Fredrik},
+  journal={IEEE Transactions on Machine Learning in Communications and Networking}, 
+  title={Deep-Learning-Based High-Precision Localization With Massive MIMO}, 
+  year={2024},
+  volume={2},
+  number={},
+  pages={19-33},
+  keywords={Location awareness;Fingerprint recognition;Covariance matrices;Training;Massive MIMO;Task analysis;Neural networks;Channel measurements;deep learning;localization;massive MIMO},
+  doi={10.1109/TMLCN.2023.3334712}}
 ```
 
 # Description
