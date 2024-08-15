@@ -13,25 +13,26 @@ Ilayda Yaman, Guoda Tian, Martin Larsson, Patrik Persson, Michiel Sandra, Alexan
 # Bibtex
 If you find our work to be useful in your research, please consider citing our paper about the dataset:
 ```
-@misc{yaman2023luvira,
-      title={The LuViRA Dataset: Measurement Description}, 
-      author={Ilayda Yaman and Guoda Tian and Martin Larsson and Patrik Persson and Michiel Sandra and Alexander Dürr and Erik Tegler and Nikhil Challa and Henrik Garde and Fredrik Tufvesson and Kalle Åström and Ove Edfors and Steffen Malkowsky and Liang Liu},
-      year={2023},
-      eprint={2302.05309},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+@INPROCEEDINGS{10610237,
+  author={Yaman, Ilayda and Tian, Guoda and Larsson, Martin and Persson, Patrik and Sandra, Michiel and Dürr, Alexander and Tegler, Erik and Challa, Nikhil and Garde, Henrik and Tufvesson, Fredrik and Åström, Kalle and Edfors, Ove and Malkowsky, Steffen and Liu, Liang},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={The LuViRA Dataset: Synchronized Vision, Radio, and Audio Sensors for Indoor Localization}, 
+  year={2024},
+  pages={11920-11926},
+  keywords={Location awareness;Accuracy;Service robots;5G mobile communication;Sensor fusion;Sensors;Trajectory},
+  doi={10.1109/ICRA57147.2024.10610237}}
+
 ```
 For more information about the validation of the dataset, you can refer to our paper:
 ```
-@misc{yaman2023indoor,
-      title={Indoor Localization Using Radio, Vision and Audio Sensors: Real-Life Data Validation and Discussion}, 
-      author={Ilayda Yaman and Guoda Tian and Erik Tegler and Patrik Persson and Nikhil Challa and Fredrik Tufvesson and Ove Edfors and Kalle Astrom and Steffen Malkowsky and Liang Liu},
-      year={2023},
-      eprint={2309.02961},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+@ARTICLE{10599608,
+  author={Yaman, Ilayda and Tian, Guoda and Tegler, Erik and Gulin, Jens and Challa, Nikhil and Tufvesson, Fredrik and Edfors, Ove and Åström, Kalle and Malkowsky, Steffen and Liu, Liang},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={LuViRA Dataset Validation and Discussion: Comparing Vision, Radio, and Audio Sensors for Indoor Localization}, 
+  year={2024},
+  pages={1-11},
+  keywords={Location awareness;Sensors;Accuracy;Cameras;Microphones;Heuristic algorithms;Trajectory;Computer vision;indoor localization;massive MIMO;multi-sensor dataset;SLAM},
+  doi={10.1109/JISPIN.2024.3429110}}
 ```
 
 The radio-based localization algorithm we developed using this dataset: 
