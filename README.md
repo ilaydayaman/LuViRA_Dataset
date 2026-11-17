@@ -226,3 +226,4 @@ dataset_directory
 ```
 3. **Separately tracked:** Although the camera, antenna and speaker follow the robot trajectory, do note that they are distinct objects with separate ground truth trajectories, and their orientation also does not neccesarily match the orientation of the robot (direction of travel). Being fixed on the robot, a rigid 6DoF tranformation should be able to align them however.
 
+[![DOI](https://zenodo.org/badge/682036696.svg)](https://doi.org/10.5281/zenodo.24316592)
